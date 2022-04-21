@@ -42,6 +42,17 @@ Updates a Discord message with the status of a Minecraft server.
            - WEBHOOK=https://discord.com/api/webhooks/.../...
      ```
 
+### Extra Options
+
+| Argument      | Environment Variable | Description                                      |
+| ------------- | -------------------- | ------------------------------------------------ |
+| --message-id  | MESSAGE_ID           | ID of the Discord message to edit                |
+| --server-host | SERVER_HOST          | Host of the Minecraft server to check            |
+| --server-port | SERVER_PORT          | Port of the Minecraft server to check            |
+| --thumbnail   | THUMBNAIL            | URL of the thumbnail to use in the Discord embed |
+| --title       | TITLE                | Title of the Discord embed                       |
+| --webhook     | WEBHOOK              | URL Of the Discord webhook                       |
+
 ## License
 
 See [LICENSE](LICENSE) for details.
