@@ -58,7 +58,8 @@ class MinecraftServerDiscordStatus:
             )
         embed.set_footer(
             text="Last updated at "
-            + updated.replace(microsecond=0, tzinfo=timezone.utc)
+            + updated.replace(microsecond=0)
+            .astimezone(timezone.utc)
             .isoformat(sep=" ")  # everyone can understand this
             .replace("+00:00", " (UTC)")  # make it a little easier
         )
