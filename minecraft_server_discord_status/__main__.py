@@ -37,6 +37,12 @@ def parse_args(args: Optional[List[str]] = None) -> Namespace:
         type=int,
     )
     parser.add_argument(
+        "--sleep",
+        default=environ.get("SLEEP"),
+        help="Delay between updates",
+        type=int,
+    )
+    parser.add_argument(
         "--thumbnail",
         default=environ.get("THUMBNAIL"),
         help="URL of the thumbnail to use in the Discord embed",
@@ -73,7 +79,7 @@ async def async_main() -> None:
 
         while True:
             await status.update()
-            await asyncio.sleep(30)
+            await asyncio.sleep(args.sleep or 30)
 
 
 def main() -> None:
