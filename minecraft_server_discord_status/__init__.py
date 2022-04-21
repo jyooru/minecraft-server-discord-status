@@ -43,7 +43,7 @@ class MinecraftServerDiscordStatus:
             name="Host",
             value=f"{self.server.address.host}",
         )
-        if online:
+        if response is not None:
             embed.add_field(name="Latency", value=str(int(response.latency)) + "ms")
             players_field = f"{response.players.online}/{response.players.max}"
             if response.players.sample is not None:
@@ -64,7 +64,7 @@ class MinecraftServerDiscordStatus:
         )
         return embed
 
-    async def update(self):
+    async def update(self) -> None:
         response = None
         try:
             response = await self.server.async_status()
