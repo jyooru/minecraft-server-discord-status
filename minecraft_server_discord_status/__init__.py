@@ -16,11 +16,11 @@ class MinecraftServerDiscordStatus:
         thumbnail: Optional[str] = None,
         title: str = "Minecraft Server Status",
     ) -> None:
-        self.message_id = message_id  # discord message to edit
-        self.server = server  # minecraft server to check
-        self.webhook = webhook  # discord webhook to use
-        self.thumbnail = thumbnail  # thumbnail for discord embed
-        self.title = title  # title for discord embed
+        self.message_id = message_id
+        self.server = server
+        self.webhook = webhook
+        self.thumbnail = thumbnail
+        self.title = title
 
     def generate_embed(
         self,
