@@ -404,6 +404,14 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "types-chardet"
+version = "4.0.3"
+description = "Typing stubs for chardet"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "typing-extensions"
 version = "4.2.0"
 description = "Backported and Experimental Type Hints for Python 3.7+"
@@ -439,7 +447,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "bebf19b60970d0cda06356b9da588b0e075c1d799f42c2493d8471dd5635547d"
+content-hash = "eb6687808c0049e53456abbced286c04c87162ff510b7894396e57248190d389"
 
 [metadata.files]
 aiohttp = [
@@ -769,6 +777,10 @@ typed-ast = [
     {file = "typed_ast-1.5.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:8831479695eadc8b5ffed06fdfb3e424adc37962a75925668deeb503f446c0a3"},
     {file = "typed_ast-1.5.3-cp39-cp39-win_amd64.whl", hash = "sha256:20d5118e494478ef2d3a2702d964dae830aedd7b4d3b626d003eea526be18718"},
     {file = "typed_ast-1.5.3.tar.gz", hash = "sha256:27f25232e2dd0edfe1f019d6bfaaf11e86e657d9bdb7b0956db95f560cceb2b3"},
+]
+types-chardet = [
+    {file = "types-chardet-4.0.3.tar.gz", hash = "sha256:519850a12ab0009f3ec5bdca35ce1c0de4eb4a67a2110aa206386e6219b3ecd8"},
+    {file = "types_chardet-4.0.3-py3-none-any.whl", hash = "sha256:8990a86d4c7cfa6c6c5889fc49e456e477851e75b5adb396d42ae106d0ae02ea"},
 ]
 typing-extensions = [
     {file = "typing_extensions-4.2.0-py3-none-any.whl", hash = "sha256:6657594ee297170d19f67d55c05852a874e7eb634f4f753dbd667855e07c1708"},
