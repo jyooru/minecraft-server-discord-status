@@ -1,9 +1,10 @@
+from asyncio import TimeoutError
+from datetime import datetime, timezone
 from typing import Optional
+
+from discord import Color, Embed, Webhook
 from mcstatus import JavaServer
 from mcstatus.pinger import PingResponse
-from discord import Webhook, Embed, Color
-from datetime import datetime, timezone
-from asyncio import TimeoutError
 
 
 class MinecraftServerDiscordStatus:

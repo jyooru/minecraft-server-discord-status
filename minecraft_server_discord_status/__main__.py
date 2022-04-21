@@ -1,8 +1,10 @@
-from . import MinecraftServerDiscordStatus
 import asyncio
-from mcstatus import JavaServer
-from discord import Webhook, AsyncWebhookAdapter
+
 import aiohttp
+from discord import AsyncWebhookAdapter, Webhook
+from mcstatus import JavaServer
+
+from . import MinecraftServerDiscordStatus
 
 
 async def async_main() -> None:
