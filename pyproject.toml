@@ -9,6 +9,7 @@ license = "MIT"
 python = "^3.7"
 "discord.py" = "^1.7.3"
 mcstatus = "^9.0.4"
+platformdirs = "2.5.1" # 2.5.2 does not build in nix, remove once updated in nixpkgs 
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
