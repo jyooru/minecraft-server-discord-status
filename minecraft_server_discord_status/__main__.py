@@ -39,7 +39,7 @@ def parse_args(args: Optional[List[str]] = None) -> Namespace:
     parser.add_argument(
         "--sleep",
         default=environ.get("SLEEP"),
-        help="Delay between updates",
+        help="Seconds to sleep between updates",
         type=int,
     )
     parser.add_argument(
