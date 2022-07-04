@@ -194,7 +194,7 @@ python-versions = "*"
 
 [[package]]
 name = "mcstatus"
-version = "9.0.4"
+version = "9.2.0"
 description = "A library to query Minecraft Servers for their status and capabilities."
 category = "main"
 optional = false
@@ -336,7 +336,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "58a0da9cdc4b1fcf3fd93d79ace5c3c08115d2759a69cdcf507fadd3d70340ec"
+content-hash = "933198c0151f8ee8cc0c60a9bdd6c1c35b56bd13d58e9267c50a6728828056fb"
 
 [metadata.files]
 aiohttp = [
@@ -456,8 +456,8 @@ mccabe = [
     {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
 ]
 mcstatus = [
-    {file = "mcstatus-9.0.4-py3-none-any.whl", hash = "sha256:3b0ca927b36980336d3dd4c1a0362eba566b503d3cf07038d5180903c5dec030"},
-    {file = "mcstatus-9.0.4.tar.gz", hash = "sha256:5219c39a21fcce36d2bc1a20feaef27027a715f9729ec55dd31d903812297964"},
+    {file = "mcstatus-9.2.0-py3-none-any.whl", hash = "sha256:16b1e117d0b74e2d056b80e177f112ee5cb4b8d25dc1da45aa5b3e714010ea1f"},
+    {file = "mcstatus-9.2.0.tar.gz", hash = "sha256:bbb79380a8e21fcc6188ed022f2c516ab59cf5a825a2eab95ed9b29ffede098f"},
 ]
 multidict = [
     {file = "multidict-6.0.2-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:0b9e95a740109c6047602f4db4da9949e6c5945cefbad34a1299775ddc9a62e2"},
